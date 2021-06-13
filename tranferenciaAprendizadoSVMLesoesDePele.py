@@ -117,9 +117,9 @@ modelo.summary()
 #Inicia carregamento das imagens
 datagen = ImageDataGenerator(rescale=1./255) 
 batch_size = 32 # Define o batch size
-diretorioBaseTreinamento = 'E:\\OneDrive - Movere Software\\BaseSeparada26032021borderline\\DiretorioImagens\\train\\'
-diretorioBaseValidacao = 'E:\\OneDrive - Movere Software\\BaseSeparada26032021borderline\\DiretorioImagens\\val\\'
-diretorioBaseTeste = 'E:\\OneDrive - Movere Software\\BaseSeparada26032021borderline\\DiretorioImagens\\test\\'
+diretorioBaseTreinamento = 'SeuCaminhoAqui'
+diretorioBaseValidacao = 'SeuCaminhoAqui'
+diretorioBaseTeste = 'SeuCaminhoAqui'
 
 #Gera os vetores de caracteriscas para entrada da SVM
 vetoresCaracteristicaTreinamento, rotulosTreinamento =extratrorDeCaracteristicas(diretorioBaseTreinamento, 98)  # Deve ser passado a quantidade de imagem de cada diretório

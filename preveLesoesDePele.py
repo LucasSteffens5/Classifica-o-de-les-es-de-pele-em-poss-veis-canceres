@@ -45,7 +45,7 @@ def extratrorDeCaracteristicas(directory, contadorDasAmostras):
     return vetoresDeCaracterisca, rotulos
 
 
-diretorioTeste = 'E:\\OneDrive - Movere Software\\BaseSeparada26032021borderline\\DiretorioImagens\\test\\'
+diretorioTeste = 'SeuCaminhoAqui'
 vetoresDeCaracterisca, rotulos = extratrorDeCaracteristicas(diretorioTeste, 140)
 from joblib import dump, load
 
