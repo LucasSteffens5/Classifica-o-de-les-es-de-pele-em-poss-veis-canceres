@@ -20,5 +20,8 @@ Utilizando transferência de aprendizado e um classificador SVM foi criado um mo
                      -------- benign
                     |
                      -------- malignant
-  ```       
+  ```  
+  No aquivo ExemploDiretorio.rar há um exemplo da estrutura do diretório.
+  
  Após basta atualizar os endereços do diretório para os do diretorio da sua máquina, nos dois arquivos disponibilizados.
+ 
