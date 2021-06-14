@@ -34,7 +34,7 @@ As duplicatas e imagens que continha obstruções foram removidas, o desbalancem
 
 A transferência de aprendizado foi realizada utilizando a rede <a href="https://keras.io/api/applications/xception/">Xception</a>.
 
-A camada totalmente conectada original foi removidas e os vetores de saída serviram de entrada para um classificador SVM Linear.
+A camada totalmente conectada original foi removida e os vetores de saída serviram de entrada para um classificador SVM Linear.
 Foi obtido os seguintes resultados:
 
 
