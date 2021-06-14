@@ -32,7 +32,7 @@ A fonte de dados é a  <a href="https://www.isic-archive.com/#!/topWithHeader/on
 
 As duplicatas e imagens que continha obstruções foram removidas, o desbalancemanto entre as classes malignas e benignas foi resolvido utilizando o algoritmo SMOTE Borderline, onde apenas a base de treinamento foi reamostrada.
 
-A tranferência de aprendizado foi realizada utilizando a rede <a href="https://keras.io/api/applications/xception/">Xception</a>.
+A transferência de aprendizado foi realizada utilizando a rede <a href="https://keras.io/api/applications/xception/">Xception</a>.
 
 A camada totalmente conectada original foi removidas e os vetores de saída serviram de entrada para um classificador SVM Linear.
 Foi obtido os seguintes resultados:
