@@ -26,13 +26,13 @@ Utilizando transferência de aprendizado e um classificador SVM foi criado um mo
 Atualize os endereços do diretório para os do diretorio da sua máquina, nos dois arquivos disponibilizados.
 
 
-#Exemplos de imagens classificadas corretamente:
+# Exemplos de imagens classificadas corretamente:
 <br>
 <img  width="300" height="300" src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ISIC_0010117.jpg"/>
 <img width="300" height="300" src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ISIC_0010493.jpg"/><br>
 <br>
 
- #Exemplos de imagens classificadas incorretamente:
+ # Exemplos de imagens classificadas incorretamente:
 <br>
 <img width="300" height="300" src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ISIC_0011504.jpg"/>
 <img width="300" height="300" src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ISIC_0011268.jpg"/><br>
@@ -50,7 +50,7 @@ A tranferência de aprendizado foi realizada utilizando as redes <a href="https:
 As camadas totalmente conectadas originais foram removidas e os vetores de saída serviram de entrada para um classificador SVM Linear.
 Foram obtido os seguintes resultados:
 
-#Para a rede InceptionResNetV2.
+# Para a rede InceptionResNetV2.
 
 <br>
 <img src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ercasInceptionResnet.png"/> <br>
