@@ -88,7 +88,7 @@ def plotaCurvaDeAprendizado(estimador, title, X, y, eixos=None, ylim=None, parti
     return plt
 
 def extratrorDeCaracteristicas(directory, contadorDasAmostras):
-    vetoresDeCaracterisca = np.zeros(shape=(contadorDasAmostras, 1536))  # O valor deve ser igual o da saida da rede selecionada (InceptionResNetV2 -> 1536) (Xception -> 2048)
+    vetoresDeCaracterisca = np.zeros(shape=(contadorDasAmostras, 2048))  # O valor deve ser igual o da saida da rede selecionada  (Xception -> 2048)
     rotulos = np.zeros(shape=(contadorDasAmostras))
     # Preprocess data
     generator = datagen.flow_from_directory(directory,
@@ -109,7 +109,7 @@ def extratrorDeCaracteristicas(directory, contadorDasAmostras):
 fig, eixos = plt.subplots(3, 2, figsize=(10, 15))
 
 # Carrega CNN utilizada para transferência de aprendizado, removendo a camada totalmente conectada
-base_modelo = InceptionResNetV2(weights='imagenet') # Para utilizar a Xception basta alterar o nome do modelo
+base_modelo = Xception(weights='imagenet') # Para utilizar a Xception basta alterar o nome do modelo
 base_modelo.summary()
 modelo = Model(inputs = base_modelo.input,outputs=base_modelo.get_layer('avg_pool').output) 
 modelo.summary()
