@@ -59,5 +59,5 @@ Onde a base de teste atingiu uma acurácia de 80,15%.
 <img width="300" height="300" src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ISIC_0011268.jpg"/><br>
 
 
-No arquivo ImagensDeExemploParaClassificacao.rar pode ser encontrado mais imagens que foram classificadas por este algoritmo.
+No arquivo ImagensDeExemploParaClassificacao.rar podem ser encontradas mais imagens que foram classificadas por este algoritmo.
 
