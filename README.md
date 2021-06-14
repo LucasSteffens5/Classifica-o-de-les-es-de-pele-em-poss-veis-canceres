@@ -49,3 +49,18 @@ A tranferência de aprendizado foi realizada utilizando as redes <a href="https:
 
 As camadas totalmente conectadas originais foram removidas e os vetores de saída serviram de entrada para um classificador SVM Linear.
 Foram obtido os seguintes resultados:
+
+#Para a rede InceptionResNetV2.
+
+<br>
+<img src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ercasInceptionResnet.png"/> <br>
+
+Onde a base de teste antingiu uma acurácia de 80,6%.
+
+
+# Para a rede Xception.
+
+<br>
+<img src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ercasxception.png"/><br>
+
+Onde a base de teste antingiu uma acurácia de 80,15%
