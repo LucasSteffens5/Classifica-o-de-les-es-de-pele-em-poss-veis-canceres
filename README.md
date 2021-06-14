@@ -43,7 +43,7 @@ Foi obtido os seguintes resultados:
 <br>
 <img src="https://github.com/LucasSteffens5/Classificacao-de-lesoes-de-pele-em-possiveis-canceres/blob/main/ercasxception.png"/><br>
 
-Onde a base de teste antingiu uma acurácia de 80,15%.
+Onde a base de teste atingiu uma acurácia de 80,15%.
 
 
 
