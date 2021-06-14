@@ -30,7 +30,7 @@ Atualize os endereços do diretório para os do diretorio da sua máquina, nos d
 
 A fonte de dados é a  <a href="https://www.isic-archive.com/#!/topWithHeader/onlyHeaderTop/gallery">ISIC</a>, que foi baixada via API disponibilizada juntamento com os arquivos de anotações de cada imagem.
 
-As duplicatas e imagens que continha obstruções foram removidas, o desbalancemanto entre as classes malignas e benignas foi resolvido untilizando o algoritmo SMOTE Borderline, onde apenas a base de treinamento foi reamostrada.
+As duplicatas e imagens que continha obstruções foram removidas, o desbalancemanto entre as classes malignas e benignas foi resolvido utilizando o algoritmo SMOTE Borderline, onde apenas a base de treinamento foi reamostrada.
 
 A tranferência de aprendizado foi realizada utilizando a rede <a href="https://keras.io/api/applications/xception/">Xception</a>.
 
